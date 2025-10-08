@@ -4,6 +4,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+.class
 
 ### STS ###
 .apt_generated
@@ -35,3 +36,10 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### aplication.yml, proprties -> DB접속정보 ###
+application.properties
+application.yml
+
+### Log Files ###
+*.log
